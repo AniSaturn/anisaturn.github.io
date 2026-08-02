@@ -2,7 +2,7 @@
 <html lang="en">
 <html>
     <head>
-        <title>☕ AniSaturn | IOS Anime App</title>
+        <title>AniSaturn | IOS Anime App</title>
         
         <!-- Metadata -->
         <meta name="keywords" content="anisaturn, anime, animeclient, ios, anixart, anianglia, client, ipa, iphone, аниме, айфон, айос, клиент, анианглия, анисатурн" />
@@ -10,19 +10,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="https://anisaturn.citory.net/" />
         <meta charset="utf-8">
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="AniSaturn">
         <meta name="twitter:description" content="IOS Anime App | Unofficial port of Anixart">
         
         <!-- Links -->
-        <link rel="stylesheet" href="styles/MainStyles.css" type="text/css">
-        <link rel="stylesheet" href="styles/ScreenshotStyles.css" type="text/css">
-        <link rel="stylesheet" href="styles/root.css" type="text/css">
-        <link rel="stylesheet" href="styles/ButtonStyles.css" type="text/css">
-        <!-- Bruh replaced with tea
-        <link rel="icon" type="image/x-icon" href="assets/app_icon.ico">
-        -->
+        <link rel="stylesheet" href="assets/styles/MainStyles.css" type="text/css">
+        <link rel="stylesheet" href="assets/styles/ScreenshotStyles.css" type="text/css">
+        <link rel="stylesheet" href="assets/styles/root.css" type="text/css">
+        <link rel="stylesheet" href="assets/styles/buttons.css" type="text/css">
+
+        
+	    <!-- JSON‑LD -->
+	    <script type="application/ld+json">
+	    {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "mainEntity": {
+                "@type": "Person",
+                "name": "PigSoul (pig.soul)",
+                "url": "https://anisaturn.citory.net",
+                "jobTitle": "Just protect me from him! Ethernet!",
+                "image": "https://anisaturn.citory.net/android-chrome-512x512.png"
+            }
+        }
+	    </script>
     </head>
     <body>
         <header style="padding-bottom: 20vh;"></header>
@@ -40,30 +60,15 @@
         </section>
         <section class="download-block">
             <h1> Download </h1>
-            <a id="download-a" target="_blank" href="https://github.com/AniSaturn/AniSaturn/releases/latest">/Download (AniSaturn)</a>
-            <a id="download-a" target="_blank" href="https://github.com/AnAgTeam/AniAnglia/releases">/Download (AniAnglia)</a>
+            <a class="download_button" target="_blank" href="https://github.com/AniSaturn/AniSaturn/releases/latest">/Download (AniSaturn)</a>
+            <a class="download_button" target="_blank" href="https://github.com/AnAgTeam/AniAnglia/releases/latest">/Download (AniAnglia)</a>
             <br>
-            <a id="sources-a" target="_blank" href="https://github.com/AniSaturn/AniSaturn">/Sources (AniSaturn)</a>
-            <a id="sources-a" target="_blank" href="https://github.com/AnAgTeam/AniAnglia">/Sources (AniAnglia)</a>
+            <a class="sources_button" target="_blank" href="https://github.com/AniSaturn/AniSaturn">/Sources (AniSaturn)</a>
+            <a class="sources_button" target="_blank" href="https://github.com/AnAgTeam/AniAnglia">/Sources (AniAnglia)</a>
         </section>
-        <!-- Not finished yet...
-        <section class="screenshots-block">
-            <h1> Screenshots </h1>
-            
-            <div class="gallery">
-                <a class="gallery-img" href="assets/screens/home_page.jpg">
-                    <img src="assets/screens/home_page.jpg" alt="home_page"/></a>
-                <a class="gallery-img" href="assets/screens/home_page.jpg">
-                    <img src="assets/screens/preview_page.jpg" alt="preview_page"/></a>
-                <a class="gallery-img" href="assets/screens/home_page.jpg">
-                    <img src="assets/screens/bookmarks_page.jpg" alt="bookmarks_page"/></a>
-                <a class="gallery-img" href="assets/screens/home_page.jpg">
-                    <img src="assets/screens/profile_page.jpg" alt="profile_page"/></a>
-                <a class="gallery-img" href="assets/screens/home_page.jpg">
-                    <img src="assets/screens/setting_page.jpg" alt="setting_page"/></a>
-            </div>
-        </section>
-        -->
-        <footer></footer>
+
+        <footer style="padding-top: 10%;display: flex;justify-content: center; color: var(--footer-color);">
+            [ Project Violette & DeltaCion | 2026 ]
+        </footer>
     </body>
 </html>

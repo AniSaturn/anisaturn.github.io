@@ -1,0 +1,40 @@
+@import "./colors.css";
+
+/*  All Buttons    */
+.download_button, .sources_button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .25s;
+
+    font-size: large;
+    border: 2px solid;
+}
+
+/*  Not hovered Buttons    */
+.download_button[href$="/releases/latest"] {
+    border-color: var(--download-btn-color);
+    color: var(--download-btn-color);
+}
+
+.sources_button[href*="github.com"]:not([href*="releases"]) {
+    border-color: var(--sources-btn-color);
+    color: var(--sources-btn-color);
+}
+
+/*  Hovered Buttons    */
+.download_button[href$="/releases/latest"]:hover {
+    box-shadow: 0px 0px 5px 0px var(--download-btn-color);
+
+    background: var(--download-btn-color);
+    color: var(--black-color);
+}
+
+.sources_button[href*="github.com"]:not([href*="releases"]):hover {
+    box-shadow: 0px 0px 5px 0px var(--sources-btn-color);
+
+    background: var(--sources-btn-color);
+    color: var(--black-color);
+}

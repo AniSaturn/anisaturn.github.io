@@ -1,4 +1,4 @@
-@import "styles/root.css";
+@import "./root.css";
 
 .download-block, .description-block, .screenshots-block {
     text-align: center;

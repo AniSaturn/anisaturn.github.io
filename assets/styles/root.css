@@ -1,3 +1,5 @@
+@import "./colors.css";
+
 :root, html, body, a, img {
     /* Disable userselect */
     -webkit-touch-callout: none;
@@ -11,21 +13,16 @@
 
 :root, html, body {
     scrollbar-width: none;
-    overflow: hidden;
-
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
+    -ms-overflow-style: none;
+    overflow: auto;
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 :root {
-    --main-color: #060606;
-    --accent-color: #ffe4c4;
-
-    --download-btn-color: #c4ffc7;
-    --sources-btn-color: #919191;
-
     /* Setup main vars */
     background-color: var(--main-color);
     color: var(--accent-color);

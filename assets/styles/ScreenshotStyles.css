@@ -1,4 +1,4 @@
-@import "styles/root.css";
+@import "./root.css";
 
 .gallery img:hover {
     filter: brightness(0.5) contrast(0.9);
