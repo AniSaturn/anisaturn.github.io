@@ -5,15 +5,11 @@
 ---
 
 ```txt
-Простенький сайт для AniAnglia
+Простенький сайт для AniSaturn
 
-Содержит ссылки на мой форк, а так же на стабильную ветку.
+Содержит ссылки на AniSaturn и на AniAnglia
 
-Мой форк:
 https://github.com/AniSaturn/AniSaturn
-
-Stable версия:
-https://github.com/AnAgTeam/AniAnglia
 
 Автор сайта: Nionim
 ```
